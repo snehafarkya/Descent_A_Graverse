@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test gradient</title>
+</head>
+<body>
+    <style>
+        #html,#css,#js{
+            background-color: black;
+            color: white;
+            
+        }
+        iframe{
+            border: 3px black solid;
+            display: block;
+            width: 1500px;
+            height: 410px;
+        }
+    </style>
+    <div class="editor">
+        <textarea name="" id="html" cols="65" rows="20" placeholder="Html code"></textarea>
+        <textarea name="" id="css" cols="65" rows="20" placeholder="Css code"></textarea>
+        <textarea name="" id="js" cols="64" rows="20" placeholder="JavaScript code"></textarea>
+        <iframe id="output"></iframe>
+        
+    </div>
+    <script type="text/javascript">
+        function run(){
+            let htmll = document.querySelector("#html").value;
+            let csss="<style>"+document.querySelector("#css").value+"</style>";
+            let jss = document.querySelector("#js").value;
+            let out = document.querySelector("#output");
+            console.log(htmll,csss,jss,out);
+            out.contentDocument.body.innerHTML = htmll + csss;
+            out.contentWindow.eval(jss);
+        }
+        
+        document.querySelector("#html").addEventListener("keyup",run);
+        document.querySelector("#css").addEventListener("keyup",run);
+        document.querySelector("#js").addEventListener("keyup",run);
+    </script>
+</body>
+</html>
