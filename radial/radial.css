@@ -32,6 +32,7 @@ body{
     font-size: 30px;
     width: 300px;
     color: black;
+    scroll-behavior: smooth;
    
 }
 a{
@@ -236,6 +237,7 @@ a:hover::after {
    .navbar a{
     margin: 4px;
     font-size: 15px;
+    scroll-behavior: smooth;
   }
   .linear{
     width: 100%;
@@ -250,7 +252,7 @@ a:hover::after {
   .secti2{
     display: grid;
     grid-template-columns: auto;
-    margin: -15px -70px;
+    margin: -15px -60px;
   }
    /* .secti2 .card{
      margin-left: -20px;

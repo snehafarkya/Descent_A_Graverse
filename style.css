@@ -33,6 +33,7 @@ body{
     font-size: 30px;
     width: 300px;
     color: white;
+    scroll-behavior: smooth;
    
 }
 a{
@@ -478,6 +479,7 @@ i:hover{
   .navbar a{
     margin: 5px;
     font-size: 15px;
+    scroll-behavior: smooth;
   }
   #rad .img{
     height: 10px;
