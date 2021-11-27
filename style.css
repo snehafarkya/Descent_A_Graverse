@@ -525,16 +525,21 @@ i:hover{
   margin-top: -20px;
 }
 .linear{
-  width: 360px;
+  width: 100%;
+  overflow: hidden;
+
 }
 .linear span{
   color: white;
   font-size: 35px;
+  
+  
+ 
 }
 .secti2{
-  display: block;
-  padding-left: 5px;
-  margin: 0;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 -40px;
   
 }
 .secti2 .card{
@@ -543,11 +548,13 @@ height: 300px;
 }
 
 .linear #img{
-display: none;
+width: 20%;
+height: 10%;
 }
 .tutorial{
   display: block;
   height: 1250px;
+  margin-top: -27px;
 }
 .tutorial video{
   width: 300px;
@@ -569,12 +576,12 @@ ol{
 .foot
 {
   columns: white;
-  margin: 10px 50px;
+  margin: 10px 62px;
 }
 i{
   color: white;
 }
 i:hover{
-  color: white;
+  color: blue;
 }
 }

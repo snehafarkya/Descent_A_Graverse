@@ -10,6 +10,8 @@ body{
   
     font-family: 'Poppins', sans-serif;
 }
+/* navbar toggle */
+
 .navbar
 { margin: 0 ;
     padding: 20px;
@@ -60,11 +62,12 @@ a:hover::after {
 .linear{
     background-color: rgba(47, 79, 79, 0.466);
     text-align: center;
+    margin-top: -32px;
   }
-  .linear span{
+  .linear h1{
     text-shadow: rgba(0, 0, 0, 0.247) 8px 4px 5px;
     font-size: 3em;
-    margin-top: 15px;
+    padding-top: 25px;
   }
   .secti2{
     
@@ -178,3 +181,77 @@ a:hover::after {
     margin: 20px;
     filter: drop-shadow(3px 2px 8px black);
   }
+  /* .navbar{
+    display: block;
+    height: 80px;
+    
+  }
+   .nav-toggle{
+       display: block;
+   }
+   .links{
+       height: auto;
+       display: flex;
+   }
+   .links a{
+       margin: 0 ;
+      
+   }
+   .show-links #navi{
+     font-size: 2px;
+   }
+  
+@media  screen and (max-width:400px) {
+ 
+   .links{
+    height: 0;
+    overflow: hidden;
+  transition: var(--transition);
+  }
+  .show-links{
+    font-size: 10px;
+    height: 10rem;
+    color: black;
+    display: block;
+    float: right;
+    text-align: left;
+  }
+  .show-links #navi{
+    font-size: 2px;
+  }
+  .navbar{
+    height: 200px;
+  }
+  
+ } */
+ @media only screen  and (max-width:400px){
+   body{
+     width: 100%;
+   }
+   .navbar{
+     width: 100%;
+     height: 90%;
+   }
+   .navbar a{
+    margin: 4px;
+    font-size: 15px;
+  }
+  .linear{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+   
+  }
+ .linear h1{
+  font-size: 1.8em;
+ }
+
+  .secti2{
+    display: grid;
+    grid-template-columns: auto;
+    margin: -15px -80px;
+  }
+   /* .secti2 .card{
+     margin-left: -20px;
+   } */
+ }
