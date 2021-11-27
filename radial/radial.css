@@ -250,7 +250,7 @@ a:hover::after {
   .secti2{
     display: grid;
     grid-template-columns: auto;
-    margin: -15px 0px;
+    margin: -15px -70px;
   }
    /* .secti2 .card{
      margin-left: -20px;

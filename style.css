@@ -540,11 +540,11 @@ i:hover{
 .secti2{
   display: grid;
   grid-template-columns: auto;
-  margin-left: -70px;
+ margin-left: -40px;
   
 }
 .secti2 .card{
-margin: 10px;
+margin: 30px;
 height: 300px;
 }
 
