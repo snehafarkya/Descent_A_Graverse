@@ -471,7 +471,7 @@ i:hover{
     background-color: black;
   }
   img{
-    width: 120%;
+    width: 150%;
     overflow: hidden;
   }
  
@@ -540,7 +540,7 @@ i:hover{
 .secti2{
   display: grid;
   grid-template-columns: auto;
-  margin: 0 -70px;
+  margin-left: -70px;
   
 }
 .secti2 .card{
