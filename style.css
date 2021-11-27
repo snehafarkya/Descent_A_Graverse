@@ -579,7 +579,9 @@ ol{
 .foot
 {
   columns: white;
-  margin: 10px 62px;
+  /* margin: 10px 62px; */
+  margin-top: 20px;
+  margin-left: 80px;
 }
 i{
   color: white;
