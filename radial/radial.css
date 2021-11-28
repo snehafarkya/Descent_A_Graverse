@@ -245,7 +245,7 @@ a:hover::after {
   .linear{
     width: 100%;
     overflow: hidden;
-    margin: 0;
+    margin: -60px;
    
   }
  .linear h1{
