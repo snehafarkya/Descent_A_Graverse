@@ -222,7 +222,7 @@ a:hover::after {
     }
   }
 .typing-demo {
-    margin-left: 17%;
+    margin-left: 13%;
     margin-top: -20px;
    width: 50ch;
     animation: typing 2s steps(18), blink .5s step-end infinite alternate;
