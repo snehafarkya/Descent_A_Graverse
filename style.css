@@ -12,7 +12,9 @@ body{
     min-width: 350px;
 
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .navbar
 { margin: 0 ;
     padding: 20px;
@@ -472,7 +474,7 @@ i:hover{
     background-color: black;
   }
   img{
-    width: 150%;
+    width: 10%;
     overflow: hidden;
   }
  
