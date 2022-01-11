@@ -1,7 +1,7 @@
 # Descent ~ A Graverse 
 <!-- ![logo](Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png" logo") -->
 <p align="center">
-  <img width="10" height="100" src="Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png">
+  <img width="300" height="300" src="Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png">
 </p>
 #### _A Gradient Universe which will mak you fall in love with Gradients_ 
 ## Table of Contents  
