@@ -1,5 +1,5 @@
 # Descent ~ A Graverse 
-![logo](Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png " logo")
+![logo](Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png = 100x50 " logo")
 #### _A Gradient Universe which will mak you fall in love with Gradients_ 
 ## Table of Contents  
 1. [About The Project](#about-the-project)
@@ -39,8 +39,6 @@
 - Provides you an online editor too.
 - Both linear and radial gradients are available.
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
 As `Walt Disney` said 
 
 > The best way to get started is 
