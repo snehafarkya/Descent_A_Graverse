@@ -1,4 +1,5 @@
-# Descent ~ A Graverse ![logo](Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png " logo")
+# Descent ~ A Graverse 
+![logo](Colorful_Sound_Waves_Music_App_Logo-removebg-preview.png " logo")
 #### _A Gradient Universe which will mak you fall in love with Gradients_ 
 ## Table of Contents  
 1. [About The Project](#about-the-project)
