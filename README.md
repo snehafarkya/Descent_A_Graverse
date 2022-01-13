@@ -22,7 +22,8 @@
 
 - Linear Gradient
 - Radial Gradient
-- ✨VOILA....It's ready to use✨
+
+✨VOILA....It's ready to use✨
 
 ## Built with  
 ##### Descent is built with running technologies like:-
